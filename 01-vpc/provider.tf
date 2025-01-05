@@ -6,11 +6,6 @@ terraform {
     }
   }
 
-  backend "s3" {
-    bucket = "daws76s-state-dev1"
-    key    = "vpc"
-    region = "us-east-1"
-  }
 }
 
 provider "aws" {
