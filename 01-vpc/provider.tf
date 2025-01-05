@@ -10,7 +10,6 @@ terraform {
     bucket = "daws76s-state-dev1"
     key    = "vpc"
     region = "us-east-1"
-    dynamodb_table = "daws76s-locking-dev"
   }
 }
 
